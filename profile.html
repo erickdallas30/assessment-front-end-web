@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <ol>
+            <li class="crumb"><a href="./home.html">Home</a></li>
+            <li class="crumb"><a href="./profile.html">Profile</a></li>
+            <li class="crumb"><a href="myneighborhood.html">My Neighborhood</a></li>
+            <li class="crumb"><a href="./about.html">About</a></li>
+        </ol>
+    </nav>
+
+    <content>
+        <h1>Erick Estrada Carpio</h1>
+
+        <div class="flex-info">
+            <div>
+                <img id="profilePic" src="ErickEstradaProfilePicture.jpg" />
+            </div>
+            <div>
+                <p>
+                    I am Recently graduated from Dallas College from a Computer Information Tecnlogy Associate Degree,
+                    interested in
+                    becoming a Softwarte Engineer with specialization in Full stack Java Engeering.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex-table">
+            <div id="softSkills">
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Attention to Detail</li>
+                    <li>Problem Solving</li>
+                    <li>Time Management</li>
+                    <li>Adaptability</li>
+                    <li>Creative</li>
+                </ul>
+            </div>
+
+            <div id="techSkills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Service Now</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <h3>Click on each button below</h3>
+
+        <div>
+            <button class="yellowBtn" id="color">My Favorite Color</button>
+            <button class="yellowBtn" id="place">My Favorite Place</button>
+            <button class="yellowBtn" id="ritual">My Favorite Ritual</button>
+        </div>
+
+        <h3>Contact me</h3>
+
+        <div class="contactBox">
+            <form>
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your E-maill...">
+
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
+
+                <input id="submitBtn" type="submit" value="Submit">
+
+            </form>
+        </div>
+    </content>
+
+    <script src="profile.js"></script>
+</body>
+
+</html>
